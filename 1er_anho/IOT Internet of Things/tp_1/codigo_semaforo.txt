@@ -1,0 +1,84 @@
+// semaforo 1 
+int LED1= 9;					//verde 
+int LED2= 8;					//amarillo
+int LED3= 7;					//rojo 
+
+// semaforo 2
+int LED4= 4;					//verde 
+int LED5= 3;					//amarillo 
+int LED6= 2;					//rojo
+
+
+void setup(){					//inicializo la configuracion 
+	Serial.begin(9600);    			//iniciar puerto serie a 9600 bps (bits por segundo)
+  	pinMode (LED1, OUTPUT);
+  	pinMode (LED2, OUTPUT);
+  	pinMode (LED3, OUTPUT);
+  	pinMode (LED4, OUTPUT);
+  	pinMode (LED5, OUTPUT);
+  	pinMode (LED6, OUTPUT);
+}
+
+void loop(){					//inicializo el bocle
+
+	// <<<<<<     primer estado     >>>>>>>
+	digitalWrite(LED1, HIGH); 		//led verde semaforo 1 encendido
+	digitalWrite(LED6, HIGH); 		//led rojo semaforo 2 encendido
+	delay(3000);				//espera de 3 seg
+	digitalWrite(LED1, LOW); 		//led verde semaforo 1 apagado
+	digitalWrite(LED6, LOW); 		//led rojo semaforo 2 apagado 
+	delay(3000);				//espera de 3 seg
+
+	// <<<<<<     segundo estado     >>>>>>>
+	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(3000);				//espera de 3 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(3000);				//espera de 3 seg
+	// parpadeo 1 semaforo amarillo
+	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(1000);				//espera de 1 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(1000);				//espera de 1 seg
+	//parpadeo 2 semaforo amarillo
+	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(1000);				//espera de 1 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(1000);				//espera de 1 seg
+
+	// <<<<<<     tercer estado     >>>>>>>
+	digitalWrite(LED3, HIGH); 		//led rojo semaforo 1 encendido
+	digitalWrite(LED4, HIGH); 		//led verde semaforo 2 encendido
+	delay(3000);				//espera de 3 seg
+	digitalWrite(LED3, LOW); 		//led rojo semaforo 1 apagado
+	digitalWrite(LED4, LOW); 		//led verde semaforo 2 apagado 
+	delay(3000);				//espera de 3 seg
+	
+  	// <<<<<<     cuarto estado     >>>>>>>
+  	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(3000);				//espera de 3 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(3000);				//espera de 3 seg
+	// parpadeo 1 semaforo amarillo
+	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(1000);				//espera de 1 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(1000);				//espera de 1 seg
+	//parpadeo 2 semaforo amarillo
+	digitalWrite(LED2, HIGH); 		//led amarillo semaforo 1 encendido
+	digitalWrite(LED5, HIGH); 		//led amarillo semaforo 2 encendido
+	delay(1000);				//espera de 1 seg
+	digitalWrite(LED2, LOW); 		//led amarillo semaforo 1 apagado
+	digitalWrite(LED5, LOW); 		//led amarillo semaforo 2 apagado
+	delay(1000);				//espera de 1 seg
+
+}

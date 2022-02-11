@@ -1,0 +1,4 @@
+Temas: Métodos del ciclo de vida para el desarrollo de sistemas SDLC y Herramientas de Ingeniería de Softwares Asistidas por Computadora CASE, alto nivel y bajo nivel.
+
+
+Leer material pdf de Kendall pág. 35-44

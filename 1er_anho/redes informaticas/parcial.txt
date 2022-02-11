@@ -1,0 +1,7 @@
+comandos ping
+tracert
+ipconfig
+comprobar la conexion de una pc con otra con el comando ping
+normas de armado del cableado 568 a y 568 b
+saber donde se configura la ip en modo manual/ estatica en la pc
+activar y desactivar la placa de red
