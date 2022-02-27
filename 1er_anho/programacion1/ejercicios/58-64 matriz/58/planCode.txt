@@ -1,0 +1,17 @@
+1 crear estructura principal del codigo.
+
+2 crear una tabla donde guardar los datos:
+	*3 filas
+	*5 columnas
+┌─────────┬────────┬────────┬────────┬────────┐
+│ numero 1│numero 2│numero 3│Numero 4│numero 5│
+├─────────┼────────┼────────┼────────┼────────┤
+│ 1 Doble │ 2 Doble│ 3 Doble│ 4 Doble│ 5 Doble│
+└─────────┴────────┴────────┴────────┴────────┘
+
+3 procedure para cargar los numeros en la primera fila y su cuadrado en la segunda fila
+
+4 procedure para imprimir:
+	+tabla (color 1)
+	+los numeros ingresados por el usuario (color 2)
+	+cuadrado de los numeros (color 3)

@@ -8,7 +8,7 @@ program ejerc58;
 uses Crt;
 
 type
-	matriz=array[1..2, 1..5] of integer;//										1..3 filas			1..5 columnas
+	matriz=array[1..2, 1..5] of integer;//										1..2 filas			1..5 columnas
 
 var
 	i,x,y,j:Integer;
@@ -32,13 +32,13 @@ procedure imprimir;
 		y:=20;
 		gotoxy(x,y);
 
-		for j:=1 to 2 do
-			for i:=1 to 5 do
+		for j:=1 to 2 do //se ejecuta por la cantidad de filas
+			for i:=1 to 5 do //se ejecuta por la cantidad de columnas
 				begin
 					if j=1 then
 						begin
 							textcolor(red);
-							write(vector[j,i],' ');
+							write(vector[j,i],'   ');
 						end;
 
 					if j=2 then
@@ -46,7 +46,7 @@ procedure imprimir;
 							y:= 22;
 							gotoxy(x,y);
 							textcolor(cyan);
-							write(vector[j,i],' ');
+							write(vector[j,i],'   ');
 							x:= x + 3;
 						end;
 				end;
