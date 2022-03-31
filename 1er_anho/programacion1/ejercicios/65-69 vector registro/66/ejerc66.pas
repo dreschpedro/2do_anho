@@ -15,7 +15,7 @@ type
 
 var
 	i:integer;
-	diaB,diaStr:string[10];
+	diaB:string[10];
 	bandera:boolean;
 	vector:array [1..6] of arrai;
 

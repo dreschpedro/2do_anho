@@ -16,7 +16,7 @@ type
 	end;
 
 var
-	i,dia,x,y:integer;
+	i,dia:integer;
 	vector:array [1..5] of menu;
 
 procedure cargar;
