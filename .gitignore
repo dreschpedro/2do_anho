@@ -1,0 +1,5 @@
+*.o
+*.exe
+
+#ignora la carpta con el instalador y crack de Visual Basic 2010
+VB2010Express_ESP
