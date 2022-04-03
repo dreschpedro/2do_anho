@@ -1,0 +1,7 @@
+Comprenda los conceptos básicos de la gestión de procesos de los sistemas operativos.
+Comprenda e interprete la importancia de la planificación de procesos de un Sistema Operativo.
+Identifique y clasifique tipos de planificación de procesos.
+Resuelva operaciones relacionadas con la planificación de procesos en función de dis-tintos Sistemas Operativos.
+Evalúe resultados obtenidos para cada uno de los casos presenta-dos. 
+
+Para el desarrollo de la unidad se empleará el libro de Silberschatz. Páginas 35 a 58.

@@ -1,0 +1,1 @@
+Trabajo práctico integrador sobre comandos básicos de Linux a realizar en el laboratorio del instituto.
