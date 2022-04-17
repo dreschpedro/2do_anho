@@ -19,7 +19,7 @@ xterm*)
 	# when run inside `mintty`.
 	for name in node ipython php php5 psql python2.7
 	do
-		case "$(type -p "$name".exe 2>/dev/null)" in
+		case "$(type -p "$name".exe 2>/dev/null)" in 
 		''|/usr/bin/*) continue;;
 		esac
 		alias $name="winpty $name.exe"
