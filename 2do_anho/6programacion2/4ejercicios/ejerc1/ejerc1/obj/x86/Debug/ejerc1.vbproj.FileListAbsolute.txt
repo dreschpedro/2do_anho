@@ -1,0 +1,12 @@
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\bin\Debug\ejerc1.exe
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\bin\Debug\ejerc1.pdb
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\bin\Debug\ejerc1.xml
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.Form1.resources
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.Resources.resources
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.vbproj.GenerateResource.Cache
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.exe
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.xml
+C:\Users\pedro\AppData\Local\Temporary Projects\ejerc1\obj\x86\Debug\ejerc1.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc1\ejerc1\obj\x86\Debug\ejerc1.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc1\ejerc1\obj\x86\Debug\ejerc1.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc1\ejerc1\obj\x86\Debug\ejerc1.pdb
