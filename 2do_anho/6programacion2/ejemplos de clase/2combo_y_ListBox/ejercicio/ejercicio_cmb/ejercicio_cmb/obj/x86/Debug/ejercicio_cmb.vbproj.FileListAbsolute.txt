@@ -1,0 +1,9 @@
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\bin\Debug\ejercicio_cmb.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\bin\Debug\ejercicio_cmb.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\bin\Debug\ejercicio_cmb.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.Resources.resources
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.vbproj.GenerateResource.Cache
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\2combo_y_ListBox\ejercicio\ejercicio_cmb\ejercicio_cmb\obj\x86\Debug\ejercicio_cmb.Form1.resources

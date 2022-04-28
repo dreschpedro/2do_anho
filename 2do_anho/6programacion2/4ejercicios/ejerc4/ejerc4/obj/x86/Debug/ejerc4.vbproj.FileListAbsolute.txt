@@ -10,3 +10,9 @@ C:\Users\pedro\AppData\Local\Temporary Projects\ejerc4\obj\x86\Debug\ejerc4.pdb
 C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.exe
 C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.xml
 C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\bin\Debug\ejerc4.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\bin\Debug\ejerc4.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\bin\Debug\ejerc4.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.Form1.resources
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.Resources.resources
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\4ejercicios\ejerc4\ejerc4\obj\x86\Debug\ejerc4.vbproj.GenerateResource.Cache

@@ -24,11 +24,13 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.lbl_precio_neto = New System.Windows.Forms.Label()
         Me.lbl_pvp = New System.Windows.Forms.Label()
-        Me.lbl_IVA = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.lbl_iva = New System.Windows.Forms.Label()
+        Me.txt_precio = New System.Windows.Forms.TextBox()
+        Me.txt_iva = New System.Windows.Forms.TextBox()
+        Me.txt_pvp = New System.Windows.Forms.TextBox()
         Me.btn_calcular = New System.Windows.Forms.Button()
+        Me.btn_borrar = New System.Windows.Forms.Button()
+        Me.btn_copiar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lbl_precio_neto
@@ -49,57 +51,84 @@ Partial Class Form1
         Me.lbl_pvp.TabIndex = 1
         Me.lbl_pvp.Text = "PVP"
         '
-        'lbl_IVA
+        'lbl_iva
         '
-        Me.lbl_IVA.AutoSize = True
-        Me.lbl_IVA.Location = New System.Drawing.Point(45, 63)
-        Me.lbl_IVA.Name = "lbl_IVA"
-        Me.lbl_IVA.Size = New System.Drawing.Size(62, 13)
-        Me.lbl_IVA.TabIndex = 2
-        Me.lbl_IVA.Text = "Importe IVA"
+        Me.lbl_iva.AutoSize = True
+        Me.lbl_iva.Location = New System.Drawing.Point(45, 63)
+        Me.lbl_iva.Name = "lbl_iva"
+        Me.lbl_iva.Size = New System.Drawing.Size(62, 13)
+        Me.lbl_iva.TabIndex = 2
+        Me.lbl_iva.Text = "Importe IVA"
         '
-        'TextBox1
+        'txt_precio
         '
-        Me.TextBox1.Location = New System.Drawing.Point(130, 12)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.txt_precio.Location = New System.Drawing.Point(130, 12)
+        Me.txt_precio.Name = "txt_precio"
+        Me.txt_precio.Size = New System.Drawing.Size(100, 20)
+        Me.txt_precio.TabIndex = 3
         '
-        'TextBox2
+        'txt_iva
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBox2.Location = New System.Drawing.Point(130, 112)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.txt_iva.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.txt_iva.Enabled = False
+        Me.txt_iva.Location = New System.Drawing.Point(130, 52)
+        Me.txt_iva.Name = "txt_iva"
+        Me.txt_iva.Size = New System.Drawing.Size(100, 20)
+        Me.txt_iva.TabIndex = 4
         '
-        'TextBox3
+        'txt_pvp
         '
-        Me.TextBox3.Location = New System.Drawing.Point(130, 60)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 5
+        Me.txt_pvp.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.txt_pvp.Enabled = False
+        Me.txt_pvp.Location = New System.Drawing.Point(130, 119)
+        Me.txt_pvp.Name = "txt_pvp"
+        Me.txt_pvp.Size = New System.Drawing.Size(100, 20)
+        Me.txt_pvp.TabIndex = 5
         '
         'btn_calcular
         '
         Me.btn_calcular.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_calcular.Location = New System.Drawing.Point(77, 169)
+        Me.btn_calcular.Location = New System.Drawing.Point(64, 173)
         Me.btn_calcular.Name = "btn_calcular"
-        Me.btn_calcular.Size = New System.Drawing.Size(135, 33)
+        Me.btn_calcular.Size = New System.Drawing.Size(108, 33)
         Me.btn_calcular.TabIndex = 6
         Me.btn_calcular.Text = "Calculat PVP"
         Me.btn_calcular.UseVisualStyleBackColor = True
+        '
+        'btn_borrar
+        '
+        Me.btn_borrar.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btn_borrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_borrar.ForeColor = System.Drawing.SystemColors.Info
+        Me.btn_borrar.Location = New System.Drawing.Point(169, 91)
+        Me.btn_borrar.Name = "btn_borrar"
+        Me.btn_borrar.Size = New System.Drawing.Size(61, 22)
+        Me.btn_borrar.TabIndex = 8
+        Me.btn_borrar.Text = "Borrar"
+        Me.btn_borrar.UseVisualStyleBackColor = False
+        '
+        'btn_copiar
+        '
+        Me.btn_copiar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_copiar.Location = New System.Drawing.Point(169, 145)
+        Me.btn_copiar.Name = "btn_copiar"
+        Me.btn_copiar.Size = New System.Drawing.Size(103, 22)
+        Me.btn_copiar.TabIndex = 9
+        Me.btn_copiar.Text = "Copiar Resultado"
+        Me.btn_copiar.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 218)
+        Me.Controls.Add(Me.btn_copiar)
+        Me.Controls.Add(Me.btn_borrar)
         Me.Controls.Add(Me.btn_calcular)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.lbl_IVA)
+        Me.Controls.Add(Me.txt_pvp)
+        Me.Controls.Add(Me.txt_iva)
+        Me.Controls.Add(Me.txt_precio)
+        Me.Controls.Add(Me.lbl_iva)
         Me.Controls.Add(Me.lbl_pvp)
         Me.Controls.Add(Me.lbl_precio_neto)
         Me.Name = "Form1"
@@ -110,10 +139,12 @@ Partial Class Form1
     End Sub
     Friend WithEvents lbl_precio_neto As System.Windows.Forms.Label
     Friend WithEvents lbl_pvp As System.Windows.Forms.Label
-    Friend WithEvents lbl_IVA As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents lbl_iva As System.Windows.Forms.Label
+    Friend WithEvents txt_precio As System.Windows.Forms.TextBox
+    Friend WithEvents txt_pvp As System.Windows.Forms.TextBox
     Friend WithEvents btn_calcular As System.Windows.Forms.Button
-    Private WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Private WithEvents txt_iva As System.Windows.Forms.TextBox
+    Friend WithEvents btn_borrar As System.Windows.Forms.Button
+    Friend WithEvents btn_copiar As System.Windows.Forms.Button
 
 End Class

@@ -3,3 +3,6 @@
 
 #ignora la carpta con el instalador y crack de Visual Basic 2010
 VB2010Express_ESP
+
+#ignora los archivos secundarios de editor de diagramas DIA
+*.dia~

@@ -1,0 +1,19 @@
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.xml
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\WindowsApplication1.Form3.resources
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.exe
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.xml
+C:\PROY_VB_EXP_2010\EJEMPLOS\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.pdb
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\1ClaseFormularios\Ejemplo1\obj\x86\Debug\Ejemplo1.exe
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\1ClaseFormularios\Ejemplo1\obj\x86\Debug\Ejemplo1.xml
+C:\Users\pedro\Pictures\analista\2do_anho\6programacion2\ejemplos de clase\1ClaseFormularios\Ejemplo1\obj\x86\Debug\Ejemplo1.pdb
