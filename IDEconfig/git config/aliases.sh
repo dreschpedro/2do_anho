@@ -7,10 +7,11 @@ alias ll='ls -l'
 alias cls='clear'
 alias cll='clear'
 alias gst='git status'
-alias gpo='git push origin'
-alias gplo='git pull origin'
+alias gp='git push'
 alias gcm='git commit -m'
 alias gad='git add .'
+alias gam='git commit -am'
+alias nn='nodemon'
 
 case "$TERM" in
 xterm*)
@@ -19,7 +20,7 @@ xterm*)
 	# when run inside `mintty`.
 	for name in node ipython php php5 psql python2.7
 	do
-		case "$(type -p "$name".exe 2>/dev/null)" in 
+		case "$(type -p "$name".exe 2>/dev/null)" in
 		''|/usr/bin/*) continue;;
 		esac
 		alias $name="winpty $name.exe"
