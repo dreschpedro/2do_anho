@@ -96,6 +96,7 @@ Partial Class Form1
         '
         'cmb_pais
         '
+        Me.cmb_pais.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmb_pais.FormattingEnabled = True
         Me.cmb_pais.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.cmb_pais.Location = New System.Drawing.Point(118, 72)
