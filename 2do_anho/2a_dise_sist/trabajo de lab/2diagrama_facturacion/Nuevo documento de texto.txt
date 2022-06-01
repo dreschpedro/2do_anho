@@ -1,0 +1,11 @@
+entidades: 
+
+cliente
+facturacion
+
+procesos:
+
+cobrar efectivo
+cobrar debito
+
+tiket debito
