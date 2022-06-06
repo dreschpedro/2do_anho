@@ -1,1 +1,0 @@
-USE ejerc1

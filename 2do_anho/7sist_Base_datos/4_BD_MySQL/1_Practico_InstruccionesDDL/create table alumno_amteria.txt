@@ -1,9 +1,0 @@
-CREATE TABLE alumno_materia (
-id_alumno_materia INT NOT NULL AUTO_INCREMENT,
-id_alumno INT NOT NULL,
-codigo_materia INT NOT NULL,
-fecha_inscripcion VARCHAR (8),
-PRIMARY KEY (idAlumnoMateria),
-FOREIGN KEY (id_alumno) REFERENCES alumnos(idAlumno),
-FOREIGN KEY (codigo_materia) REFERENCES materias(codigo_materia)
-)
