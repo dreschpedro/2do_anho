@@ -3,6 +3,32 @@
     Dim simbol As String
     Public turno As Boolean
 
+    Sub Ganador()
+        If turno = False Then
+            lbl_turno.Text = "Gano Jugador 2"
+        Else
+            lbl_turno.Text = "Gano Jugador 1"
+        End If
+
+        'mensaje
+        If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
+            End 'cierra el form
+        Else
+            'limpia todos los labels
+            Label1.Text = " "
+            Label2.Text = " "
+            Label3.Text = " "
+            Label4.Text = " "
+            Label5.Text = " "
+            Label6.Text = " "
+            Label7.Text = " "
+            Label8.Text = " "
+            Label9.Text = " "
+            lbl_turno.Text = "Turno Jugador 1"
+        End If
+    End Sub
+
+
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         turno = False
     End Sub
@@ -28,217 +54,42 @@
         End If
         sender.text = simbol
 
-        '######################################################################################################################################
-        '#######################################                CONTROL DE JUGADAS                 ############################################
-        '######################################################################################################################################
+        '##################################################################################################                             
+        '########################                CONTROL DE JUGADAS                 #######################
+        '##################################################################################################
 
         'HORIZONTAL 1ER FILA
 
         If Label1.Text <> " " And (Label2.Text = Label1.Text) And (Label3.Text = Label1.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'HORIZONTAL 2DA FILA
         ElseIf Label4.Text <> " " And (Label5.Text = Label4.Text) And (Label6.Text = Label4.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'HORIZONTAL 3RA FILA
         ElseIf Label7.Text <> " " And (Label8.Text = Label7.Text) And (Label9.Text = Label7.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'VERTICAL 1ER COLUMNA
         ElseIf Label1.Text <> " " And (Label4.Text = Label1.Text) And (Label7.Text = Label1.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'VERTICAL 2DA COLUMNA
         ElseIf Label2.Text <> " " And (Label5.Text = Label2.Text) And (Label8.Text = Label2.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'VERTICAL 3RA COLUMNA
         ElseIf Label3.Text <> " " And (Label6.Text = Label3.Text) And (Label9.Text = Label3.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'DIAGONAL CAIDA A LA DERECHA (1 AL 9)
         ElseIf Label1.Text <> " " And (Label5.Text = Label1.Text) And (Label9.Text = Label1.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
+            Call Ganador()
 
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
-
-            '######################################################################################################################################
             'DIAGONAL CAIDA A LA DERECHA (3 AL 7)
         ElseIf Label3.Text <> " " And (Label5.Text = Label3.Text) And (Label7.Text = Label3.Text) Then
-            If turno = False Then
-                lbl_turno.Text = "Gano Jugador 2"
-            Else
-                lbl_turno.Text = "Gano Jugador 1"
-            End If
-
-            'mensaje
-            If MsgBox("Queres jugar de nuevo?", MsgBoxStyle.YesNo, "Atencion") = MsgBoxResult.No Then
-                End 'cierra el form
-            Else
-                'limpia todos los labels
-                Label1.Text = " "
-                Label2.Text = " "
-                Label3.Text = " "
-                Label4.Text = " "
-                Label5.Text = " "
-                Label6.Text = " "
-                Label7.Text = " "
-                Label8.Text = " "
-                Label9.Text = " "
-                lbl_turno.Text = "Turno Jugador 1"
-            End If
+            Call Ganador()
 
         ElseIf (Label1.Text <> " ") And (Label2.Text <> " ") And (Label3.Text <> " ") And (Label4.Text <> " ") And (Label5.Text <> " ") And (Label6.Text <> " ") And (Label7.Text <> " ") And (Label8.Text <> " ") And (Label9.Text <> " ") Then
             'mensaje
