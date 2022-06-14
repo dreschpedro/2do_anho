@@ -45,17 +45,20 @@ Partial Class Form1
         Me.pb_3flan = New System.Windows.Forms.PictureBox()
         Me.pb_3helado = New System.Windows.Forms.PictureBox()
         Me.gpb_bebidas = New System.Windows.Forms.GroupBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.pb_4agua = New System.Windows.Forms.PictureBox()
         Me.pb_4cafe = New System.Windows.Forms.PictureBox()
         Me.pb_4coca = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lbl_importe = New System.Windows.Forms.Label()
+        Me.btn_cobrar = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txt_entrega = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbl_papa_value = New System.Windows.Forms.Label()
         Me.gpb_primeros.SuspendLayout()
         CType(Me.pb_1papa, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pb_1ensalada, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,6 +79,7 @@ Partial Class Form1
         '
         'gpb_primeros
         '
+        Me.gpb_primeros.Controls.Add(Me.lbl_papa_value)
         Me.gpb_primeros.Controls.Add(Me.Label6)
         Me.gpb_primeros.Controls.Add(Me.Label5)
         Me.gpb_primeros.Controls.Add(Me.Label4)
@@ -305,6 +309,33 @@ Partial Class Form1
         Me.gpb_bebidas.TabStop = False
         Me.gpb_bebidas.Text = "Bebidas"
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(273, 13)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(32, 13)
+        Me.Label15.TabIndex = 13
+        Me.Label15.Text = "Coca"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(161, 13)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(29, 13)
+        Me.Label14.TabIndex = 12
+        Me.Label14.Text = "Café"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(46, 13)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(32, 13)
+        Me.Label13.TabIndex = 11
+        Me.Label13.Text = "Agua"
+        '
         'pb_4agua
         '
         Me.pb_4agua.Image = CType(resources.GetObject("pb_4agua.Image"), System.Drawing.Image)
@@ -335,91 +366,106 @@ Partial Class Form1
         Me.pb_4coca.TabIndex = 5
         Me.pb_4coca.TabStop = False
         '
-        'Label1
+        'lbl_importe
         '
-        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label1.Location = New System.Drawing.Point(480, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(80, 74)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lbl_importe.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.lbl_importe.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_importe.Location = New System.Drawing.Point(466, 120)
+        Me.lbl_importe.Name = "lbl_importe"
+        Me.lbl_importe.Size = New System.Drawing.Size(192, 74)
+        Me.lbl_importe.TabIndex = 4
+        Me.lbl_importe.Text = "hola"
+        Me.lbl_importe.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Button1
+        'btn_cobrar
         '
-        Me.Button1.Location = New System.Drawing.Point(480, 336)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(155, 38)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn_cobrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btn_cobrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_cobrar.ForeColor = System.Drawing.Color.Blue
+        Me.btn_cobrar.Location = New System.Drawing.Point(480, 336)
+        Me.btn_cobrar.Name = "btn_cobrar"
+        Me.btn_cobrar.Size = New System.Drawing.Size(155, 38)
+        Me.btn_cobrar.TabIndex = 5
+        Me.btn_cobrar.Text = "Cobrar"
+        Me.btn_cobrar.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(543, 252)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(518, 259)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Entrega"
         '
-        'TextBox1
+        'txt_entrega
         '
-        Me.TextBox1.Location = New System.Drawing.Point(495, 287)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(139, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.txt_entrega.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_entrega.Location = New System.Drawing.Point(480, 284)
+        Me.txt_entrega.Multiline = True
+        Me.txt_entrega.Name = "txt_entrega"
+        Me.txt_entrega.Size = New System.Drawing.Size(155, 28)
+        Me.txt_entrega.TabIndex = 7
+        Me.txt_entrega.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(543, 402)
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(519, 423)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.Size = New System.Drawing.Size(74, 18)
         Me.Label3.TabIndex = 8
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "Devolver"
         '
-        'Label13
+        'Label16
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(46, 13)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(32, 13)
-        Me.Label13.TabIndex = 11
-        Me.Label13.Text = "Agua"
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.SystemColors.Control
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(508, 68)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(108, 18)
+        Me.Label16.TabIndex = 9
+        Me.Label16.Text = "Importe Total"
         '
-        'Label14
+        'Label1
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(161, 13)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(29, 13)
-        Me.Label14.TabIndex = 12
-        Me.Label14.Text = "Café"
+        Me.Label1.BackColor = System.Drawing.Color.Yellow
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(480, 452)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(155, 57)
+        Me.Label1.TabIndex = 10
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label15
+        'lbl_papa_value
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(273, 13)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(32, 13)
-        Me.Label15.TabIndex = 13
-        Me.Label15.Text = "Coca"
+        Me.lbl_papa_value.AutoSize = True
+        Me.lbl_papa_value.Location = New System.Drawing.Point(46, 89)
+        Me.lbl_papa_value.Name = "lbl_papa_value"
+        Me.lbl_papa_value.Size = New System.Drawing.Size(0, 13)
+        Me.lbl_papa_value.TabIndex = 8
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(700, 604)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txt_entrega)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btn_cobrar)
+        Me.Controls.Add(Me.lbl_importe)
         Me.Controls.Add(Me.gpb_bebidas)
         Me.Controls.Add(Me.gpb_postres)
         Me.Controls.Add(Me.gpb_segundos)
         Me.Controls.Add(Me.gpb_primeros)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.gpb_primeros.ResumeLayout(False)
@@ -450,10 +496,10 @@ Partial Class Form1
     Friend WithEvents gpb_segundos As System.Windows.Forms.GroupBox
     Friend WithEvents gpb_postres As System.Windows.Forms.GroupBox
     Friend WithEvents gpb_bebidas As System.Windows.Forms.GroupBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents lbl_importe As System.Windows.Forms.Label
+    Friend WithEvents btn_cobrar As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txt_entrega As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
@@ -479,5 +525,8 @@ Partial Class Form1
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lbl_papa_value As System.Windows.Forms.Label
 
 End Class
