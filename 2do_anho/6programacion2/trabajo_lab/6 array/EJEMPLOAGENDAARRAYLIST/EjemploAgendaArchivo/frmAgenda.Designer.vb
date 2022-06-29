@@ -22,20 +22,20 @@ Partial Class frmAgenda
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.lstContactos = New System.Windows.Forms.ListBox
-        Me.txtNombre = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.txtTel = New System.Windows.Forms.TextBox
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.txtEmail = New System.Windows.Forms.TextBox
-        Me.btnAgregar = New System.Windows.Forms.Button
-        Me.btnEliminar = New System.Windows.Forms.Button
-        Me.btnModificar = New System.Windows.Forms.Button
-        Me.btnBuscar = New System.Windows.Forms.Button
-        Me.btnSalir = New System.Windows.Forms.Button
-        Me.btnMostrar = New System.Windows.Forms.Button
-        Me.btnLimpiar = New System.Windows.Forms.Button
+        Me.lstContactos = New System.Windows.Forms.ListBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtTel = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.btnAgregar = New System.Windows.Forms.Button()
+        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
+        Me.btnBuscar = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnMostrar = New System.Windows.Forms.Button()
+        Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstContactos
