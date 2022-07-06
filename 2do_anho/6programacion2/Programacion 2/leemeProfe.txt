@@ -1,0 +1,3 @@
+tuve que empezar a usar la version de VisualStudio 2022, por que la del 2010 me pedia serial y 
+no me funciono ninguno, ni siquiera crackeandolo.
+igual lo unico que cambia es la parte visual y el archivo designer que no modificamos(creo).
