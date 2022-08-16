@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejemplo nuevos controles</title>
+        <link rel="stylesheet" href="./estilos.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
+    </head>
+<body>
+<form  >
+   <!-- TEXT: Tipo caja de texto: permite ingresar texto-->
+   <label for=""> Nombre:</label> 
+   <input type="text" name="name_control" autofocus required />
+    <br /><br />
+   <!-- EMAIL: Para ingresar direcciones de email-->
+    <label for=""> Correo Electrónico:</label> 
+   <input type="email" name="email_control" required />
+    <br /><br />
+  <!-- URL: campo para introducir URLs -->
+    <label for="">  URL: </label> 
+   <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
+    <br /><br />
+   <!-- DATE: Tipo dato fecha-->
+    <label for=""> Fecha:</label> 
+    <input type="date" name="date_control" />
+    <br /><br />
+   <!-- TIME: Tipo dato hora-->
+    <label for=""> Tiempo:</label> 
+   <input type="time" name="time_control" />
+    <br /><br />
+   <!-- DATETIME: Tipo campo para ingresar tiempo y fecha basado horario UTC-->
+    <label for=""> Fecha y hora de nacimiento:</label> 
+   <input type="datetime" name="datetime_control" />
+    <br /><br />
+   <!-- MONTH: Campo mes-->
+    <label for=""> Mes:</label> 
+     <input type="month" name="month_control" />
+    <br /><br />
+   <!-- WEEK: Campo semana-->
+    <label for=""> Semana:</label> 
+   <input type="week" name="week_control" />
+    <br /><br />
+   <!-- NUMBER: Campo numero-->
+    <label for=""> Número (min -10, max 10):</label> 
+   <input type="number" name="number_control" min="-10" max="10" value="0" />
+    <br />
+   <!-- RANGE: rango-->
+    <label for=""> Intervalo (min 0, max 10):</label> 
+   <input type="range" name="range_control" min="0" max="10" value="0" /> <output for="range_control" name="range_control_value" >0</output>
+    <br /><br />
+   <!-- TEL: Campo crear un campo especial para introducir números de teléfono-->
+    <label for=""> Teléfono:</label> 
+   <input type="tel" name="tel_control" />
+    <br /><br />
+   <!-- SEARCH: Campo destinados crear cajas de búsqueda en páginas y aplicaciones-->
+    <label for=""> Término de búsqueda:</label> 
+   <input type="search" name="search_control" />
+    <br /><br />
+    <!-- COLOR: Tipo caja de texto: permite ingresar texto-->
+   <label for=""> Color Favorito:</label> 
+   <input type="color" name="color_control" />
+    <br /><br />
+    <!-- Botones de selección: PERMITE SELECCIONAR VARIAS OPCIONES-->
+    <label for=""> HTML</label> 
+   <input type="checkbox"   />
+   <label for=""> CSS</label>
+   <input type="checkbox"  />
+   <label for=""> JAVASCRIPT</label>
+   <input type="checkbox"   /> 
+      <br /><br />
+    <!-- Botones de CHECK: PERMITE SELECCIONAR VARIAS OPCIONES-->
+    <label for=""> HTML</label> 
+    <input type="radio"  name="cursos" />
+    <label for=""> CSS</label>
+    <input type="radio"  name="cursos" />
+    <label for=""> JAVASCRIPT</label>
+    <input type="radio"  name="cursos" /> 
+       <br /><br />
+   <!-- LISTA: Tipo LISTA OPCIONES-->
+<select>
+    <option>La primera opción</option>
+    <option>La segunda opción</option>
+    <option>La tercera opción</option>
+  </select>
+  <br /><br />
+  <!-- BOTONES-->
+    <input class="enviar" type="submit" value="Submit!" />
+    <input type="reset">
+    
+</form>
+
+<nav>
+    <a href="">cursos</a><a href="">cursos</a><a href="">cursos</a>
+</nav>
+</body>
+</html>
