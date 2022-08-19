@@ -1,0 +1,9 @@
+Ejecute la interfaz de línea de comandos de Linux (shell o terminal).
+Introduzca el comando LS. Tome nota del resultado.
+Haga lo mismo en la interfaz gráfica. 
+Haga un resumen de lo realizado, descibiendo los pasos realizados en cada caso y los resultados obtenidos.  Para redactar el informe utilice el procesador de textos de Linux (Open Office o Libre Office). 
+Navegue por el directorio raiz ingresando comandos.
+Liste todos los archivos del directorio raiz.
+Ingrese a cualquier carpeta del directorio raiz.
+Otorgue permisos de superusario.
+Copie un archivo desde su directorio personal al directorio raiz.

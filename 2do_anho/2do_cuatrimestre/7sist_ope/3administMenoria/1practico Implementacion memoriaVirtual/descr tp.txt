@@ -1,0 +1,5 @@
+Realizar un trabajo de investigación sobre la forma en que los Sistemas Operativos del mercado implementan la memoria virtual. 
+
+Se puede realizar en grupo y el SO es a elección. 
+
+Tener en cuenta lo visto sobre Paginación, segmentación, tablas de páginas, MMU, etc. 

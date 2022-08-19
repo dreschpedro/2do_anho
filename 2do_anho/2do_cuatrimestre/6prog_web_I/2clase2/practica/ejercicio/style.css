@@ -1,0 +1,85 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(149, 228, 228);
+    text-align: justify;
+}
+
+.main{
+    width: 850px;
+    border: 2px solid rgb(214, 165, 165);
+    margin: auto  auto;
+    padding: 35px;
+}
+
+.titulo{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.texto{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Cardo', serif;
+}
+
+#paises{
+    list-style: square;
+}
+
+li{
+    font-size: 20px;
+}
+
+.li1, .li6{
+    font-style: normal;
+}
+
+.li2, .li5{
+    font-weight: bold;
+}
+
+.li3{
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 3rem;
+}
+
+.li4{
+    text-decoration: underline;
+}
+
+span.arpa{
+    background-color: yellow;
+}
+
+span.expo{
+    text-decoration:line-through ;
+}
+
+#texto{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#vacio{
+    border: 2px solid green;
+}
+
+.deporte{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background-color: orange;
+}
+
+h3.subtitulo{
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: rgba(0, 174, 255, 0.486);
+}

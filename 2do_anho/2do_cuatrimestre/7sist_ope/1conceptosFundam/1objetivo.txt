@@ -1,0 +1,9 @@
+1. Reconocer la misión y funcionamiento de los componentes del software de base de un Sistema Informático.
+2.Identificar los distintos sistemas operativos utilizados en la actualidad.
+3.Identificar y comprender conceptos y principios fundamentales surgidos en la evolución histórica de los Sistemas Operativos.
+4.Conozca e interprete el funcionamiento general de cada una de las partes que conforman el Sistema Operativo central.
+5.Conozca los distintos tipos de estructura que presentan los sistemas operativos.
+6.Relacione y analice cual de cada uno de los sistemas es aplicable a cada caso particular.
+7.Comprenda el funcionamiento del Shell del sistema operativo y las interfaces con el mismo: GUI o CLI.
+
+El contenido de la unidad 1 se encuentra en las páginas 7 a 51 de la bibliografía del Libro de Jesús Torres

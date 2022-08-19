@@ -1,0 +1,8 @@
+Realizar un trabajo de investigación sobre comandos de shell Linux para administración de memoria (pág 136 libro Linux)
+
+De cada comando y salida obtenido realizar capturas de pantalla y pegarlo en un archivo de Word el cual deberá adjuntarse a esta tarea.
+
+1-Comando para obtener información de la memoria RAM.  Mostrar los valores en MBytes. 
+2.Ubicar el Archivo de información de memoria. meminfo. Hacer un resumen de lo que significa cada valor registrado en dicho archivo. 
+3.Comando cuya salida muestre un informes estadísticos sobre el uso de la memoria virtual. Resumen de cada campo de la salida. 
+4.Escriba una definición del área de intercambio. Ubicar el archivo donde se encuentran registradas las áreas swap activas en el sistema.
