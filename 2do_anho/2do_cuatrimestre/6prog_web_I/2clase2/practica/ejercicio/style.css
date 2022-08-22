@@ -6,8 +6,8 @@ body{
 
 .main{
     width: 850px;
-    border: 2px solid rgb(214, 165, 165);
-    margin: auto  auto;
+    border: 2px solid rgb(102, 146, 0);
+    margin: auto auto 50px;
     padding: 35px;
 }
 
@@ -16,15 +16,19 @@ body{
     text-align: center;
 }
 
-.texto{
+/*        EJERCICIO2        */
+
+#h2{
+    text-align-last: left;
+}
+
+/*        EJERCICIO3        */
+
+#texto{
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
     font-family: 'Cardo', serif;
-}
-
-#paises{
-    list-style: square;
 }
 
 li{
@@ -57,10 +61,7 @@ span.expo{
     text-decoration:line-through ;
 }
 
-#texto{
-    font-style: oblique;
-    font-weight: bold;
-}
+/*        EJERCICIO4        */
 
 #vacio{
     border: 2px solid green;
@@ -73,7 +74,7 @@ span.expo{
     background-color: orange;
 }
 
-h3.subtitulo{
+h3.subtitulo, h2{
     text-align: center;
 }
 
@@ -82,4 +83,21 @@ h3.subtitulo{
     font-style: italic;
     text-decoration: underline;
     background-color: rgba(0, 174, 255, 0.486);
+}
+
+/*        DATOSPERSONALES          */
+#datos{
+    list-style: circle;
+}
+
+/*        PAISES          */
+#paises{
+    list-style: square;
+    font-weight: bold;
+}
+
+.prov{
+    list-style: none;
+    font-weight: normal;
+    font-style: italic;
 }
