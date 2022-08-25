@@ -1,0 +1,29 @@
+header{
+    border: 2px solid red;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav{
+    border: 2px solid rgb(246, 255, 0);
+    margin: 15px;
+    padding: 15px;
+}
+
+section{
+    border: 2px solid rgb(119, 255, 0);
+    margin: 15px;
+    padding: 15px;
+}
+
+article{
+    border: 2px solid rgb(0, 123, 255);
+    margin: 15px;
+    padding: 15px;
+}
+
+footer{
+    border: 2px solid rgb(255, 0, 251);
+    margin: 15px;
+    padding: 15px;
+}
