@@ -12,23 +12,3 @@ VB2010Express_ESP
 VB2010Express_ESP.rar
 
 
-#OS junk files
-[Tt]humbs.db
-*.DS_Store
-
-#Tooling
-_ReSharper*/
-*.resharper
-[Tt]est[Rr]esult*
-
-#Project files
-[Bb]uild/
-
-#Subversion files
-.svn
-
-# Office Temp Files
-~$*
-
-#NuGet
-packages/
