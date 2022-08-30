@@ -1,60 +1,63 @@
 :root{
-    --claro: rgb(228, 223, 218);
-    --amarillo: rgb(212, 180, 131);
-    --rojo: rgb(193, 102, 107);
+    --negro: #3a3c3b;
+    --gris: #7f7f7f;
+    --blanco: #bfbfbf;
+    --azul: #497398;
 }
 
 body{
-    background-color: var(--claro);
-    text-align: center;
+    background-color: var(--negro);
 }
 
 header{
-    border-radius: 10px;
-    width: 90%;
-    background-color: var(--amarillo);
-    margin: 10px 20px 10 50px;
-    padding: 15px 0 15px 0;
-    width: 95%;
+    height: 50px;
+    border: 2px solid var(--azul);
+    background-color: var(--gris);
+    margin: 15px;
+    width: 98%;
 }
 
-#lenguajes{
-    width: 25%;
-    height: 200px;
+nav{
+    height: 50px;
+    border: 2px solid var(--azul);
+    background-color: var(--gris);
+    margin: 15px;
+    width: 98%;
+}
+
+div{
+    width: 98%;
+    margin: 15px;
 }
 
 section{
-    border-radius: 10px;
-    background-color: var(--amarillo);
-    margin: 10px;
-    width: 40%;
-    height: 200px;
-    padding: 15px;
+    height: 300px;
+    border: 2px solid var(--azul);
+    background-color: var(--gris);
+    width: 73%;
     float: left;
 }
 
 article{
-    border-radius: 10px;
-    background-color: var(--rojo);
-    margin: 15px;
-    padding: 15px;
+    height: 50px;
+    border: 2px solid var(--azul);
+    background-color: var(--blanco);
+    margin: 40px;
 }
 
 aside{
-    border-radius: 10px;
-    background-color: var(--amarillo);
-    margin: 10px;
-    height: 200px;
-    padding: 15px;
-    width: 22%;
-    float: left;
+    height: 300px;
+    border: 2px solid var(--azul);
+    background-color: var(--gris);
+    width: 25%;
+    float: right;
 }
 
 footer{
-    border-radius: 10px;
-    background-color: var(--amarillo);
-    margin: 10px 20px 0 50px;
-    padding: 15px 0 15px 0;
-    width: 95%;
+    height: 50px;
+    border: 2px solid var(--azul);
+    background-color: var(--gris);
+    margin: 15px;
     float: left;
+    width: 98%;
 }

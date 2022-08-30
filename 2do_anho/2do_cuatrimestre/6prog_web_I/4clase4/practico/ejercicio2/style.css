@@ -1,0 +1,34 @@
+:root{
+    --fondo: aquamarine;
+}
+
+body{
+    background-color: var(--fondo);
+}
+
+div{
+    margin: 15px;
+    width: 125px;
+    height: 125px;
+    font-size: 70px;
+}
+
+.square1{
+    background-color: #ff0000;
+}
+
+.square2{
+    background-color: #ff0066;
+}
+
+.square3{
+    background-color: #ff0099;
+}
+
+.square4{
+    background-color: #ff00cc;
+}
+
+.square5{
+    background-color: #ff00ff;
+}

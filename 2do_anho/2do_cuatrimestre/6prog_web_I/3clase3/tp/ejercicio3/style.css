@@ -1,0 +1,60 @@
+:root{
+    --claro: rgb(228, 223, 218);
+    --amarillo: rgb(212, 180, 131);
+    --rojo: rgb(193, 102, 107);
+}
+
+body{
+    background-color: var(--claro);
+    text-align: center;
+}
+
+header{
+    border-radius: 10px;
+    width: 90%;
+    background-color: var(--amarillo);
+    margin: 10px 20px 0 50px;
+    padding: 15px 0 15px 0;
+    width: 95%;
+}
+
+#lenguajes{
+    width: 25%;
+    height: 200px;
+}
+
+section{
+    border-radius: 10px;
+    background-color: var(--amarillo);
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+    padding: 15px;
+    float: left;
+}
+
+article{
+    border-radius: 10px;
+    background-color: var(--rojo);
+    margin: 15px;
+    padding: 15px;
+}
+
+aside{
+    border-radius: 10px;
+    background-color: var(--amarillo);
+    margin: 10px;
+    height: 200px;
+    padding: 15px;
+    width: 22%;
+    float: left;
+}
+
+footer{
+    border-radius: 10px;
+    background-color: var(--amarillo);
+    margin: 10px 20px 0 50px;
+    padding: 15px 0 15px 0;
+    width: 95%;
+    float: left;
+}
