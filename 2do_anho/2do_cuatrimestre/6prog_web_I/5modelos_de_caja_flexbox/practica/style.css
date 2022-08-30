@@ -1,0 +1,29 @@
+:root{
+    --rojo: maroon;
+    --claro: rgb(228, 223, 218);
+    --azul: cadetblue;
+    --gold: goldenrod;
+    --aqua: aqua;
+}
+
+body{
+    background-color: var(--claro);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    background-color: var(--azul);
+    border: 3px dotted  var(--aqua);
+}
+
+.caja{
+    border: 2px solid var(--rojo);
+    background-color: var(--gold);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
