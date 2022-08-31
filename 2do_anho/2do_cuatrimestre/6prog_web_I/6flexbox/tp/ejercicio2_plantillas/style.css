@@ -1,0 +1,13 @@
+:root{
+    --negro: rgb(0, 0, 0);
+    --marron_oscuro: rgb(33, 23, 23);
+    --dulce_leche: rgb(163, 74, 40);
+    --naranja: rgb(245, 139, 84);
+    --mandarina: rgb(236, 155, 59);
+    --barro: rgb(190, 117, 117);
+    --ceniza: rgb(95, 103, 105);
+    --alga: rgb(113, 145, 146);
+    --purple: rgb(144, 144, 248);
+    --rosa: rgb(249, 183, 252);
+    --azul: rgb(41, 52, 98);
+}

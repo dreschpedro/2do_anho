@@ -1,5 +1,4 @@
 *.o
-*.exe
 
 #archivos secundarios de diagramas DIA
 *.dia~
