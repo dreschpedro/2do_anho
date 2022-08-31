@@ -17,8 +17,6 @@ p {
 	background-color: #000;
 	display: flex;
 	flex-flow: column nowrap;
-
-
 }
 
 .menu {

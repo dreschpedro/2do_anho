@@ -1,6 +1,6 @@
 :root {
     --morado1:#494ca2;
-    --morado2:#484c7f;
+    --azul:#484c7f;
     --lila:#ac8daf;
     --bordo:#940a37;
     --tomato:#e26241;
@@ -9,4 +9,104 @@
     --yellow:yellow;
     --black:#000;
     --negro2:#211717;
+}
+
+/* line-height */
+
+*{
+    margin: 15px;
+    text-align: center;
+}
+
+header{
+    background-color: var(--black);
+    height: 150px;
+    flex-flow: column nowrap;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    background-color: var(--morado1);
+}
+
+.submenu{
+    background-color: var(--tomato);
+    height: 15px;
+    width: 150px;
+}
+
+.logo{
+
+}
+
+.nav{
+
+}
+
+.social{
+
+}
+
+
+.texto{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--orange);
+    height: 60px;
+}
+
+.titulo{
+    background-color: var(--yellow);
+    height: 30px;
+}
+
+
+section{
+    background-color: var(--black);
+    height: 400px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.padre{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--negro2);
+    height: 250px;
+}
+
+.hijo{
+    background-color: var(--melon);
+    height: 20px;
+}
+
+.hijo5{
+    background-color: var(--bordo);
+}
+
+aside{
+    /* display: flex; */
+    /* align-content: center; */
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--lila);
+    height: 100px;
+}
+
+.publi{
+    background-color: var(--azul);
+    height: 20px;
+}
+
+footer{
+    background-color: var(--black);
+    height: 80px;
 }
