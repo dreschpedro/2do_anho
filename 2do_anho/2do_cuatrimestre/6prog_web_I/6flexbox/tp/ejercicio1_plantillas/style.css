@@ -43,7 +43,7 @@ header{
 
 .submenu{
     background-color: var(--tomato);
-    height: 25px;
+    height: 60%;
     flex: 1 1 auto;
 }
 
@@ -68,19 +68,24 @@ section{
     background-color: var(--black);
     height: 400px;
     display: flex;
+    padding: 10px;
     flex-direction: column;
 }
 
 .padre{
     display: flex;
+    /* margin: 5px; */
+    flex: 1 1 auto;
     flex-direction: column;
     height: 250px;
+    padding: 10px;
     background-color: var(--negro2);
 }
 
 .hijo{
     background-color: var(--melon);
     flex: 1 1 auto;
+    margin: 5px;
 }
 
 .hijo5{
@@ -89,13 +94,15 @@ section{
 
 aside{
     display: flex;
+    flex: 1 1 auto;
+    /* margin: 5px; */
     flex-direction: column;
     height: 100px;
     background-color: var(--lila);
 }
 
 .publi{
-    flex: 1 1 auto;
+    flex: 1 0.1 auto;
     background-color: var(--azul);
     /* height: 20px; */
 }
