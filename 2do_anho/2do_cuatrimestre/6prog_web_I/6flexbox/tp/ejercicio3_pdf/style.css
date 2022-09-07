@@ -11,6 +11,7 @@
     --gris_fondo: rgb(60, 66, 92);
     --ceniza: rgb(95, 103, 105);
     --plasma:rgb(113, 145, 146);
+    --blanco: #fff;
 }
 
 body{
@@ -25,10 +26,13 @@ header{
 }
 
 .titulo{
-    display: flex;
     flex: 1 1 auto;
-    background-color: #fff;
+    background-color: var(--purple);
     margin: 5px;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 10px 0;
 }
 
 .navegacion{
@@ -42,17 +46,30 @@ header{
 .menu{
     flex: 1 1 auto;
     margin: 5px;
-    height: 100%;
+    padding: 5px 0;
+    /* height: 80%; */
     background-color: var(--alga);
     text-align: center;
-    
+    align-self: center;
 }
 
 .boton{
     display: flex;
     flex: 1 1 auto;
-    background-color: #fff;
+    background-color: var(--alga);
     margin: 5px;
+    justify-content: flex-end;
+}
+
+.contacto{
+    flex: 0 1 40%;
+    text-align: center;
+    align-self: center;
+    background-color: var(--gris_fondo);
+    color: var(--blanco);
+    padding: 2px 0;
+    border: 1px solid var(--blanco);
+    font-size: 20px;
 }
 
 /* CUERPO */
@@ -65,9 +82,30 @@ header{
     height: 700px;
 }
 
+.banner{
+    background-image: url(./img/grey-geometrical-shapes-background.jpg);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.banner p{
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    flex: 0 1 2%;
+    font-size: 50px;
+    align-self: center;
+}
 
+#texto1{
+}
 
+#texto2{
+    font-size: 20px;
+}
 
 footer{
     background-color: var(--mandarina);
