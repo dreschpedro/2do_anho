@@ -30,9 +30,10 @@ header{
     background-color: var(--purple);
     margin: 5px;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     align-self: center;
-    padding: 10px 0;
+    text-decoration: underline;
+    padding: 10px 0 10px 10px;
 }
 
 .navegacion{
@@ -101,10 +102,17 @@ header{
 }
 
 #texto1{
+    
 }
 
 #texto2{
     font-size: 20px;
+}
+
+hr{
+    width: 90%;
+    flex: 0 0 1%;
+    background-color: #fff;
 }
 
 footer{

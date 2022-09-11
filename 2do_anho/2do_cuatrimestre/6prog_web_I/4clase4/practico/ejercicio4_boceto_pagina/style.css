@@ -1,0 +1,19 @@
+:root{
+    --marron: rgb(33, 23, 23);
+    --naranja: rgb(245, 139, 84);
+    --mandarina: rgb(236, 155, 59);
+    --barro: rgb(163, 74, 40);
+    --plastilina: rgb(190, 117, 117);
+    --alga: rgb(0, 129, 138);
+    --purple: rgb(144, 144, 248);
+    --rosa: rgb(249, 183, 252);
+    --azul: rgb(41, 52, 98);
+    --gris_fondo: rgb(60, 66, 92);
+    --ceniza: rgb(95, 103, 105);
+    --plasma:rgb(113, 145, 146);
+    --blanco: #fff;
+}
+
+body{
+    background-color: var(--gris_fondo);
+}
