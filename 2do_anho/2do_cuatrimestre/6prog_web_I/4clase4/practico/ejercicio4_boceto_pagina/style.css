@@ -7,7 +7,7 @@
     --alga: rgb(0, 129, 138);
     --purple: rgb(144, 144, 248);
     --rosa: rgb(249, 183, 252);
-    --azul: rgb(41, 52, 98);
+    --azul: rgb(24 123 155);;
     --gris_fondo: rgb(60, 66, 92);
     --ceniza: rgb(95, 103, 105);
     --plasma:rgb(113, 145, 146);
@@ -15,5 +15,24 @@
 }
 
 body{
-    background-color: var(--gris_fondo);
+    background-color: var(--blanco);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container{
+    background-color: var(--azul);
+    flex: 1 1 auto;
+    display: flex;
+    height: 20vh;
+}
+
+.logo{
+    height: 80%;
+    flex: 1 1 1;
+    align-self: center;
+    margin-left: 2%;
 }
