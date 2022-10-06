@@ -1,0 +1,1 @@
+CREATE TABLE `imagenes` ( `id` int(11) NOT NULL AUTO_INCREMENT,`foto` longblob,`tam_archivo` bigint(20) default NULL,`nom_archivo` varchar(150) default NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
