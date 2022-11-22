@@ -1,0 +1,37 @@
+Sub BuscarImagenBD(ByVal id_personal_IMG As Integer)
+        Dim Conn As MySql.Data.MySqlClient.MySqlConnection
+        Conn = New MySql.Data.MySqlClient.MySqlConnection
+
+        Try
+            If Conn.State = ConnectionState.Open Then Conn.Close()
+            Conn.ConnectionString = "server=localhost; user id=root; password=123456; database=vecino_sustentable; port=3306;"
+            Conn.Open()
+
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString, "Connect")
+        End Try
+
+        Dim cons_sql As String = ""
+        cons_sql = "SELECT id_personal, foto, tam_archivo, nom_archivo 
+                    FROM personal 
+                    WHERE usuario= " & id_personal_IMG & ";"
+
+        Dim adapter As New MySql.Data.MySqlClient.MySqlDataAdapter
+        adapter.SelectCommand = New MySql.Data.MySqlClient.MySqlCommand(cons_sql, Conn)
+
+        Dim Data As New DataTable 'Data debe estar cargado con algun dato -> ¿?
+        Dim commandbuild As New MySql.Data.MySqlClient.MySqlCommandBuilder(adapter)
+        adapter.Fill(Data)
+
+        If Data.Rows.Count > 0 Then
+            'cargo la imagen
+            Dim lb() As Byte = Data.Rows(Data.Rows.Count - 1).Item("foto")
+            Dim lstr As New System.IO.MemoryStream(lb)
+            'cargo la imagen en el picture
+            pbPicture.Image = Image.FromStream(lstr)
+            pbPicture.SizeMode = PictureBoxSizeMode.StretchImage
+            lstr.Close()
+        Else
+            MsgBox("NO HAY IMAGEN", MsgBoxStyle.Critical, "ATENCION")
+        End If
+    End Sub

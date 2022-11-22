@@ -1,0 +1,15 @@
+PARA SELECCIONAR EN EL LIST VIEW
+--------------------------------
+
+1. PROPIEDAD de lviewSocios Fullrowselect = true
+
+2. EN EL EVENTO lviewSocios_SelectedIndexChanged
+
+- USAR EL MISMO CODIGO DE CARGAR_LIST, REEMPLAZAR SOLAMENTE EL SELECT POR:
+
+"select * from socio where nombre = '" & lviewSocios.Items.Item(lviewSocios.FocusedItem.Index).SubItems(1).Text & "' ;"
+
+
+
+
+

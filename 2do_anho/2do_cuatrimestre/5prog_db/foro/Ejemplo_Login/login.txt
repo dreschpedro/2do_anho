@@ -1,0 +1,40 @@
+ 'invoco al login
+        Dim login As New FormLogin
+
+        Dim result As DialogResult = login.ShowDialog()
+
+        If (result <> Windows.Forms.DialogResult.OK) Then
+
+            Me.Close()
+
+        End If
+
+
+    Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
+        'invocado desde FormPrincipal
+        Me.DialogResult = Windows.Forms.DialogResult.Cancel
+        Me.Close()
+    End Sub
+
+    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+        'primero controlo que esten cargados los text
+        If txtUsuario.Text = "" Or txtClave.Text = "" Then Exit Sub
+
+        'ahora controlo que no sea el usuario administrador
+        If txtUsuario.Text = "admin" And txtClave.Text = "1234" Then
+            'ingreso como admin
+            IdUsuAct = 0
+            UsuarioActivo = "Administrador"
+            RolUsuarioActivo = "ADMIN"
+            'FormPrincipal.Show()
+            'libero el form primncipal
+            Me.DialogResult = Windows.Forms.DialogResult.OK
+            Me.Close()
+            Exit Sub
+            Else
+                MsgBox("NOMBRE DE USUARIO INCORRECTO", vbCritical, "ERROR!")
+                txtUsuario.Text = ""
+                txtUsuario.Focus()
+
+        End If
+

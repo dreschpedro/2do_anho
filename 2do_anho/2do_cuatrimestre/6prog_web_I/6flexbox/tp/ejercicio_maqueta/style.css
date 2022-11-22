@@ -1,0 +1,249 @@
+:root{
+    --marron: rgb(33, 23, 23);
+    --naranja: rgb(245, 139, 84);
+    --mandarina: rgb(236, 155, 59);
+    --barro: rgb(163, 74, 40);
+    --plastilina: rgb(190, 117, 117);
+    --alga: rgb(0, 129, 138);
+    --purple: rgb(144, 144, 248);
+    --rosa: rgb(249, 183, 252);
+    --azul: rgb(41, 52, 98);
+    --gris_fondo: rgb(60, 66, 92);
+    --ceniza: rgb(95, 103, 105);
+    --plasma:rgb(113, 145, 146);
+    --blanco: #fff;
+}
+
+body{
+    background-color: var(--blanco);
+}
+
+header{
+    display: flex;
+    height: 50px;
+    background-color: var(--blanco);
+    margin: 5px;
+}
+
+.titulo{
+    flex: 1 1 auto;
+    background-color: var(--blanco);
+    margin: 5px;
+    font-size: 15px;
+    text-align: left;
+    align-self: center;
+    text-decoration: underline;
+    padding: 10px 0 10px 10px;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    background-color: var(--blanco);
+    margin: 5px;
+}
+
+.menu{
+    flex: 1 1 auto;
+    margin: 5px;
+    text-decoration: none;
+    color: var(--marron);
+    padding: 5px 0;
+    /* height: 80%; */
+    background-color: var(--blanco);
+    text-align: center;
+    align-self: center;
+}
+
+.boton{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: var(--blanco);
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.contacto{
+    /* flex: 0 1 ; */
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 40%;
+    text-align: center;
+    align-self: center;
+    background-color: var(--marron);
+    color: var(--blanco);
+    padding: 2px 0;
+    /* border: 1px solid var(--blanco); */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* CUERPO */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* background-color: var(--blanco); */
+    margin: 5px;
+    height: 700px;
+}
+
+
+/* BANNER */
+.banner{
+    background-image: url(./img/grey-geometrical-shapes-background.jpg);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    /* justify-content: flex-start; */
+    /* align-items: start; */
+}
+
+.banner p{
+    /* background-color: #fff; */
+    text-align: center;
+    width: 50%;
+    flex: 0 1 2%;
+    font-size: 50px;
+    align-self: center;
+    color: var(--blanco);
+}
+
+.banner .learn{
+    background-color: var(--blanco);
+    color: var(--marron);
+    width: 30%;
+}
+
+#text_banner{
+    /* background-color: #fff; */
+    text-align: center;
+}
+.linea_horizontal{
+    width: 90%;
+    flex: 0 0 0.3%; /* poner en <0 0 0.3> */
+    background-color: var(--ceniza);
+    border: none;
+}
+
+/* SECTION 1 -- WHO WE ARE */
+
+.sec-main{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.lorem{
+    text-align: justify;
+}
+
+.learn{
+    background-color: var(--marron);
+    color: var(--blanco);
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+    flex: 1 1 40%;
+}
+
+img{
+    width: 100%;
+    /* flex: 0 1 10%; */
+}
+
+.sec1{
+    background-color: rgb(11blanco--blanco, 139);
+    display: flex;
+    flex: 1 1 auto;
+    margin: 10px auto;
+    width: 80%;
+    flex-flow: row nowrap;
+}
+
+.texto1{
+    flex: 1 0 40%;
+    height: 30%;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.img-con1{
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    /* border: 2px solid blue; */
+}
+
+
+/* SECCION 2 */
+.sec2{
+    background-color: rgb(11blanco--blanco, 139);
+    display: flex;
+    flex: 1 1 auto;
+    margin: 10px auto;
+    width: 80%;
+    flex-flow: row nowrap;
+}
+
+.texto2{
+    flex: 1 0 40%;
+    height: 30%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.img-con2{
+    display: flex;
+    flex: 1 1 60%;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    /* border: 2px solid blue; */
+}
+
+
+.sec3{
+    /* background-color: var(--blanco); */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#titulo_sec3 p, #titulo_sec3 h2{
+    background-color: rgb(10blanco--blanco 185, 221);
+    align-content: center;
+    text-align: center;
+}
+
+#content-sec3{
+    /* background-color: var(--blanco); */
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.text3{
+    /* border: 2px solid blue; */
+    margin: 15px;
+    flex: 1 1 30%;
+}
+
+/* footer{
+    border: 2px solid var(--mandarina);
+    height: 80px;
+    margin: 5px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */

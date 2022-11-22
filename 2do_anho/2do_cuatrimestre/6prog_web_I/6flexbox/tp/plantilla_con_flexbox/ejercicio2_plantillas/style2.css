@@ -1,0 +1,109 @@
+:root{
+    --marron: rgb(33, 23, 23);
+    --naranja: rgb(245, 139, 84);
+    --mandarina: rgb(236, 155, 59);
+    --barro: rgb(163, 74, 40);
+    --plastilina: rgb(190, 117, 117);
+    --alga: rgb(0, 129, 138);
+    --purple: rgb(144, 144, 248);
+    --rosa: rgb(249, 183, 252);
+    --azul: rgb(41, 52, 98);
+    --gris_fondo: rgb(60, 66, 92);
+    --ceniza: rgb(95, 103, 105);
+    --plasma:rgb(113, 145, 146);
+
+}
+
+body{
+    background-color: var(--gris_fondo);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: var(--purple);
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    background-color: var(--azul);
+    margin: 10px;
+    align-items: flex-end;
+}
+
+.menu{
+    flex: 1 1 auto;
+    background-color: var(--mandarina);
+    height: 30%;
+    margin: 15px;
+}
+
+.menu2{
+    flex: 5 1 auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: 9 1 auto;
+    background-color: var(--alga);
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijo{
+    flex: 0 0 30%;
+    background-color: var(--rosa);
+    height: 35%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: var(--marron);
+    margin: 10px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    background-color: var(--barro);
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.art{
+    flex: 0 0 35%;
+    background-color: var(--naranja);
+    height: 15%;
+    margin: 15px;
+}
+
+.art5{
+    flex: 1 1 100%;
+    background-color: var(--plastilina);
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: var(--ceniza);
+    margin: 10px;
+    /* flex-wrap: nowrap; */
+}
+
+.artic{
+    flex: 0 1 15%;
+    margin: 15px;
+    background-color: var(--plasma);
+}

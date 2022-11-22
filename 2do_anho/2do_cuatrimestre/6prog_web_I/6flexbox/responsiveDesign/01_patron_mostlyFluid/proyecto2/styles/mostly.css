@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body { 
+    background-color: #efe7da;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  /* .content {  
+    margin: 0px;
+  } */
+  .class1, .class2, .class3, .class4, .class5, .class6 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .class1 {
+    background-color: blue;
+  }
+  .class2 {
+    background-color: blueviolet;
+  }
+  .class3 {
+    background-color: burlywood;
+  }
+  .class4 {
+    background-color: coral;
+  }
+  .class5 {
+    background-color: cadetblue;
+  }
+  .class6 {
+    background-color: salmon;
+  }

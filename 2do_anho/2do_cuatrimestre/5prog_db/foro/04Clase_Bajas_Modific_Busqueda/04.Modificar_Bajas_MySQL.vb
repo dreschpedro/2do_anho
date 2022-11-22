@@ -120,5 +120,3 @@ MsgBox(ex.Message)
 conexion.Close()
 End Try
 End Sub
-
--

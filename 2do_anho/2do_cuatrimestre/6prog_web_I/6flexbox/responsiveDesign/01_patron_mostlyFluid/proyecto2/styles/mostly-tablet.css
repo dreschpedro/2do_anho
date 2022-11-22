@@ -1,0 +1,7 @@
+.container { 
+    justify-content: space-evenly;
+    margin: 0 auto; 
+  }
+  .class2, .class3, .class4, .class5 { 
+    width: calc(50% - 20px)
+  } 

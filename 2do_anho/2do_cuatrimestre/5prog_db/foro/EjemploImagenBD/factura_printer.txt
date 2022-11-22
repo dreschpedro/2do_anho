@@ -1,0 +1,84 @@
+    Private Sub factura_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs) Handles HojaImpresion.PrintPage
+        Try
+            ' La fuente a usar
+            Dim prFont As New Font("Arial", 30, FontStyle.Bold)
+            ' la posicion superior
+            'imprimir una imagen
+            e.Graphics.DrawImage(pbPicture.Image, 30, 30, 200, 200)
+            'direccion
+            e.Graphics.DrawString("Vecino Sutentable", prFont, Brushes.Black, 300, 30)
+
+            prFont = New Font("Arial", 25, FontStyle.Bold)
+            'e.Graphics.DrawString("Impreso por el Administrador:", prFont, Brushes.Black, 170, 200)
+            'prFont = New Font("Arial", 25, FontStyle.Italic)
+            'e.Graphics.DrawString(ape_usuario & ", " & nom_usuario, prFont, Brushes.Black, 250, 240)
+            'factura lado derecho superior
+            'e.Graphics.DrawString("n°de factura", prFont, Brushes.Black, 650, 10)
+            'e.Graphics.DrawString(labelcantidaddefactura.Text, prFont, Brushes.Black, 650, 40)
+            'tipo de factura
+            'e.Graphics.DrawRectangle(Pens.Black, 300, 10, 200, 200)
+
+            'imprimimos la fecha y hora
+            'prFont = New Font("Arial", 12, FontStyle.Italic)
+            'e.Graphics.DrawString(Date.Now.ToShortDateString.ToString & " - " &
+            'Date.Now.ToShortTimeString.ToString, prFont, Brushes.Black, 610, 100)
+
+            'stilo A,B.C
+            'prFont = New Font("arial", 100, FontStyle.Underline)
+            'e.Graphics.DrawString("C", prFont, Brushes.Black, 320, 0)
+
+            'GRAFICAR LINE -> por bajo de "Impreso por el Administrador: Dresch, Pedro"
+            e.Graphics.DrawLine(Pens.Black, 0, 300, 850, 300)
+
+            'prFont = New Font("Arial", 18, FontStyle.Bold)
+            'e.Graphics.DrawString(cmb_rol.Text, prFont, Brushes.Black, 15, 310)
+
+            prFont = New Font("Arial", 12, FontStyle.Bold)
+            'datos de paciente 
+            prFont = New Font("Arial", 18, FontStyle.Bold)
+            e.Graphics.DrawString("ROL:", prFont, Brushes.Black, 250, 100)
+            prFont = New Font("Arial", 18, FontStyle.Italic)
+            e.Graphics.DrawString(cmb_rol.Text, prFont, Brushes.Black, 330, 100)
+
+            prFont = New Font("Arial", 18, FontStyle.Bold)
+            e.Graphics.DrawString("APELLIDO:", prFont, Brushes.Black, 250, 140)
+            prFont = New Font("Arial", 18, FontStyle.Italic)
+            e.Graphics.DrawString(txt_ape.Text, prFont, Brushes.Black, 400, 140)
+
+            prFont = New Font("Arial", 18, FontStyle.Bold)
+            e.Graphics.DrawString("NOMBRE:", prFont, Brushes.Black, 250, 180)
+            prFont = New Font("Arial", 18, FontStyle.Italic)
+            e.Graphics.DrawString(txt_nombre.Text, prFont, Brushes.Black, 380, 180)
+
+            prFont = New Font("Arial", 18, FontStyle.Bold)
+            e.Graphics.DrawString("TELEFONO:", prFont, Brushes.Black, 250, 220)
+            prFont = New Font("Arial", 18, FontStyle.Italic)
+            e.Graphics.DrawString(txt_telefono.Text, prFont, Brushes.Black, 410, 220)
+
+
+            'e.Graphics.DrawLine(Pens.Black, 0, 440, 850, 440)
+
+            'prFont = New Font("Arial", 18, FontStyle.Bold)
+            'e.Graphics.DrawString("tratamiento", prFont, Brushes.Black, 10, 460)
+            'e.Graphics.DrawString(ComboBoxtratamiento2.Text, prFont, Brushes.Black, 10, 520)
+            'e.Graphics.DrawString("precio.uni", prFont, Brushes.Black, 210, 460)
+            'e.Graphics.DrawString(Txtprecio.Text, prFont, Brushes.Black, 210, 520)
+            'e.Graphics.DrawString("cantidad ", prFont, Brushes.Black, 410, 460)
+            'e.Graphics.DrawString(Txtcantidad.Text, prFont, Brushes.Black, 410, 520)
+            'e.Graphics.DrawString("total ", prFont, Brushes.Black, 610, 460)
+            'e.Graphics.DrawString(Txttotal.Text, prFont, Brushes.Black, 610, 520)
+            'imprimir lineas
+            'e.Graphics.DrawLine(Pens.Black, 0, 490, 850, 490)
+            'e.Graphics.DrawLine(Pens.Black, 210, 440, 210, 1000)
+            'e.Graphics.DrawLine(Pens.Black, 410, 440, 410, 1000)
+            'e.Graphics.DrawLine(Pens.Black, 610, 440, 610, 1000)
+            'e.Graphics.DrawLine(Pens.Black, 0, 1000, 850, 1000)
+            'imprimir un rectangulo
+            ' e.Graphics.DrawRectangle(Pens.Green, 90, 90, 250, 100)
+            'imprimir un circulo
+            'e.Graphics.DrawEllipse(Pens.Indigo, 350, 900, 300, 100)
+        Catch ex As Exception
+            MessageBox.Show("ERROR: " & ex.Message, "Administrador", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
+        End Try
+    End Sub

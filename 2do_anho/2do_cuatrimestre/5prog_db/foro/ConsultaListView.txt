@@ -1,0 +1,15 @@
+Private Sub lvClientes_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lvClientes.SelectedIndexChanged
+        
+'obtengo los datos seleccionados del listview
+
+        'si el count es mayor a 0 esta seleccionado algo
+        If lvClientes.SelectedItems.Count > 0 Then
+            'traigo los datos
+            Dim item As ListViewItem = lvClientes.SelectedItems(0)
+            'cargo los textbox
+            txtCodCli.text = Val(item.Text)
+            txtNomCli.Text = item.SubItems(1).Text
+            txtDirCli.Text = item.SubItems(2).Text
+            txtTelCli.Text = item.SubItems(3).Text
+	end if
+end sub
