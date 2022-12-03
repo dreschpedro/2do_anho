@@ -1,0 +1,4 @@
+id_eco_resid
+id_residuo
+id_ecopunto
+cantidad_residuo

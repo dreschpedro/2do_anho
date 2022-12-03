@@ -1,0 +1,533 @@
+:root {
+    --beige: rgb(241, 203, 190);
+    --celeste: rgb(207, 225, 247);
+    --gris: rgb(117, 117, 117);
+    --negro: black;
+    --gris_oscuro: rgb(45, 52, 68);
+    --rosa: rgb(255, 7, 90);
+    --rosa_a: rgba(255, 7, 90, 0.35);
+    --rojo: rgb(167, 0, 0);
+    --blanco: rgb(250, 250, 250);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: var(--celeste);
+}
+
+.boton {
+    font-weight: bold;
+    color: var(--blanco);
+    background-color: var(--rojo);
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* HEADER */
+
+header {
+    color: var(--blanco);
+    text-align: center;
+}
+
+header #nav_bar {
+    background-color: var(--beige);
+}
+
+header .banner {
+    background-image: url(../img/food.jpg);
+    background-size: cover;
+    border-radius: 0 0 15px 15px;
+}
+
+header #nav_bar .link_nav {
+    color: var(--gris_oscuro);
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/*MAIN*/
+
+.main {
+    background-color: var(--blanco);
+    color: var(--gris_oscuro);
+}
+
+.titulo {
+    font-weight: bold;
+    color: var(--negro);
+}
+
+
+/*SECTION*/
+#cosas .articulo .subtitulo {
+    color: var(--rojo);
+}
+
+#cosas .articulo .iconos {
+    background-color: var(--rosa);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+#cosas .articulo p{
+    text-align: justify;
+}
+
+/*FORMULARIO*/
+.main .container {
+    background-color: var(--gris);
+}
+.container * {
+    margin: 5px;
+}
+.main .container h2 {
+    color: var(--rojo);
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario .wea input{
+    border-radius: 5px;
+}
+
+/* ############################################### */
+
+/* header {
+    border: 2px solid red;
+}
+
+#nav_bar {
+    border: 2px solid green;
+}
+
+.link_nav {
+    border: 2px solid orange;
+}
+
+.banner {
+    border: 2px solid yellow;
+}
+
+.main {
+    border: 2px solid pink;
+}
+
+#cosas .articulo {
+    border: 2px solid black;
+}
+
+.titulo {
+    border: 2px solid blue;
+}
+
+#cosas .articulo .subtitulo {
+    border: 2px solid lightskyblue;
+}
+
+.main .container {
+    border: 2px solid yellow;
+}
+
+.container h2 {
+    border: 2px solid orange;
+}
+
+.formulario p {
+    border: 2px solid lightblue;
+} */
+
+/* ############################################### */
+
+/*MEDIA QUERY*/
+
+@media (min-width: 320px) and (max-width: 480px) { /*telefono*/
+    /*NAVBAR*/
+    header #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 35px;
+        align-items: center;
+    }
+
+    header #nav_bar .link_nav {
+        padding: 0 15px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+    }
+
+    header #nav_bar .link_nav:hover {
+        color: var(--blanco);
+        background-color: var(--rosa_a);
+    }
+
+    /*BANNER*/
+    header .banner {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .banner p {
+        margin: 15px 0;
+    }
+
+    header .banner .boton:hover {
+        background-color: var(--rosa);
+    }
+
+    /*MAIN*/
+
+    .main {
+        margin: 15px 7px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    /*SECTION*/
+    .main #cosas {
+        display: flex;
+        /* flex-flow: row wrap; */
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    #cosas .articulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin: 10px 0;
+        /* border: 2px solid orange; */
+    }
+
+    #cosas .articulo .iconos { /*ETIQUETAS <p>*/
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .main .titulo{
+        margin: 15px 0;
+    }
+
+    /*FORMULARIO*/
+    .main .container{
+        margin: 0 0 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .formulario{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .texto{
+        width: 50px;
+        height: 25px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+    .formulario .wea input{
+        flex: 1 1 auto;
+        text-align: left;
+        height: 25px;
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+
+    .formulario .wea{
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 100%;
+    }
+
+    .container .boton{
+        align-self: flex-end;
+        margin: 0 15px 20px;
+    }
+
+    .container .boton:hover{
+        background-color: var(--rosa);
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {/*Tablet*/
+    /*NAVBAR*/
+    header #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 35px;
+        align-items: center;
+    }
+
+    header #nav_bar .link_nav {
+        padding: 0 15px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    header #nav_bar .link_nav:hover {
+        color: var(--blanco);
+        background-color: var(--rosa_a);
+    }
+
+    /*BANNER*/
+    header .banner {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .banner p {
+        margin: 15px 0;
+    }
+
+    header .banner .boton:hover {
+        background-color: var(--rosa);
+    }
+
+    /*MAIN*/
+
+    .main {
+        margin: 15px 20px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    /*SECTION*/
+    .main #cosas {
+        display: flex;
+        flex-flow: row wrap;
+        /* border: 2px solid red; */
+    }
+
+    #cosas .articulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        /* margin: 0 10px; */
+        /* border: 2px solid orange; */
+    }
+
+    #cosas .art1,
+    #cosas .art2{
+        flex: 1 1 30%;
+    }
+
+    #cosas .art1{
+        margin-right: 20px;
+    }
+
+    #cosas .art3{
+        margin-top: 30px;
+    }
+
+    #cosas .articulo .iconos { /*ETIQUETAS <p>*/
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .main .titulo{
+        margin: 15px 0;
+    }
+
+    /*FORMULARIO*/
+    .main .container{
+        margin: 0 10px 30px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .formulario{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .texto{
+        width: 50px;
+        height: 25px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+    .formulario .wea input{
+        flex: 1 1 auto;
+        text-align: left;
+        height: 25px;
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+
+    .formulario .wea{
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 100%;
+    }
+
+    .container .boton{
+        align-self: flex-end;
+        margin: 0 15px 20px;
+    }
+
+    .container .boton:hover{
+        background-color: var(--rosa);
+    }
+
+}
+
+
+/*laptop*/
+@media (min-width: 769px) {
+    /*NAVBAR*/
+    header #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 35px;
+        align-items: center;
+    }
+
+    header #nav_bar .link_nav {
+        padding: 0 15px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    header #nav_bar .link_nav:hover {
+        color: var(--blanco);
+        background-color: var(--rosa_a);
+    }
+
+    /*BANNER*/
+    header .banner {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .banner p {
+        margin: 15px 0;
+    }
+
+    header .banner .boton:hover {
+        background-color: var(--rosa);
+    }
+
+    /*MAIN*/
+
+    .main {
+        margin: 15px 40px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    /*SECTION*/
+    .main #cosas {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #cosas .articulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin: 0 20px;
+    }
+
+    #cosas .articulo .iconos { /*ETIQUETAS <p>*/
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .main .titulo{
+        margin: 15px 0;
+    }
+
+    /*FORMULARIO*/
+    .main .container{
+        margin: 0 10px 30px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .formulario{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .texto{
+        width: 50px;
+        height: 25px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+    .formulario .wea input{
+        flex: 1 1 auto;
+        text-align: left;
+        height: 25px;
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+
+    .formulario .wea{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .formulario .wea1,
+    .formulario .wea2{
+        /* width: 50%; */
+        flex: 1 0 25%;
+    }
+
+    .formulario .wea3,
+    .formulario .wea4{
+        /* width: 50%; */
+        flex: 5 0 75%;
+    }
+
+    .container .boton{
+        align-self: flex-end;
+        margin: 0 15px 20px;
+    }
+
+    .container .boton:hover{
+        background-color: var(--rosa);
+    }
+/* Desarrollado por Dresch, Pedro */
+}

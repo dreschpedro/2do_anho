@@ -1,9 +1,0 @@
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\bin\Debug\EjemploAgendaArchivo.exe
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\bin\Debug\EjemploAgendaArchivo.pdb
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\bin\Debug\EjemploAgendaArchivo.xml
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\WindowsApplication1.frmAgenda.resources
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\WindowsApplication1.Resources.resources
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\EjemploAgendaArchivo.vbproj.GenerateResource.Cache
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\EjemploAgendaArchivo.exe
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\EjemploAgendaArchivo.xml
-D:\REPOSITORIOS\analista\2do_anho\1er_cuatrimestre\6programacion2\trabajo_lab\6 array\EJEMPLOAGENDAARRAYLIST\EjemploAgendaArchivo\obj\Debug\EjemploAgendaArchivo.pdb

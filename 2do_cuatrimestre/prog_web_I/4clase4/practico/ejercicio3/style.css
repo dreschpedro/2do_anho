@@ -1,0 +1,30 @@
+:root{
+    --rojo: maroon;
+    --claro: rgb(216, 204, 151);
+    --gold: goldenrod;
+    --gris: rgba(128, 128, 128, 0.685);
+}
+
+body{
+    background-color: var(--claro);
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: var(--rojo);
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    background-color: var(--rojo);
+    color: var(--gold);
+}
+
+p{
+    text-align: justify;
+    margin: 30px;
+    background-color: var(--gris);
+    color: var(--rojo);
+}
